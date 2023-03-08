@@ -1,9 +1,9 @@
 import './App.css';
-
+import HeroSection from './components/heroSection';
 function App() {
   return (
-    <div className="App">
-      Hi
+    <div className="App bg">
+      <HeroSection/>
     </div>
   );
 }
